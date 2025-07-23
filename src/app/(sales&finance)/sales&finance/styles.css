@@ -1,0 +1,77 @@
+.sales-page {
+  min-height: 100vh;
+  padding: 1.5rem;
+  background-color: white;
+  color: #1E1D29;
+}
+
+.sales-title {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  gap: 0.5rem;
+}
+
+.title-dark {
+  color: #181B29;
+}
+.title-brown {
+  color: #4F2D2B;
+}
+.title-orange {
+  color: #E94900;
+}
+
+.tabs {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.tab-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-weight: 500;
+  border: none;
+  transition: background 0.2s ease-in-out;
+}
+
+.tab-btn.active {
+  background-color: #E94900;
+  color: white;
+}
+
+.tab-btn.inactive {
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+.primary-btn {
+  background-color: #E94900;
+  color: white;
+  padding: 0.5rem 1.25rem;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.primary-btn:hover {
+  background-color: #DF4800;
+}
+
+.card-box {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #f8f8f8;
+  color: #1E1D29;
+  border: 1px solid #ddd;
+}
+
+.section-box {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #eee;
+}
